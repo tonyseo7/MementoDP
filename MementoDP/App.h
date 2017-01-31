@@ -6,6 +6,7 @@ typedef vector<Picture*> vPictures;
 class App
 {
 	vPictures pictures;
+	Snapshot *pSnapshot;
 	int mCurVecIndex;
 
 public:
